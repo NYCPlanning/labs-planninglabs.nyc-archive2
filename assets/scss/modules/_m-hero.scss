@@ -18,6 +18,7 @@
 
   .button {
     @include button-style(darken($primary-color,10%), auto, get-color(secondary));
+    margin: $global-margin $global-margin 0 0;
   }
   :last-child {
     margin-bottom: 0;
