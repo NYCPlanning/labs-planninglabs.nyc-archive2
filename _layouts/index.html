@@ -12,7 +12,9 @@ layout: default
           {% else %}
           <h1>{{ page.title }}</h1>
           {% endif %}
+          {% if page.hero-buttons %}
           {% for button in page.hero-buttons %}<a href="{{ button.permalink }}" class="button large">{{ button.call-to-action }}</a>{% endfor %}
+          {% endif %}
           </div>
       </div>
     </div>
