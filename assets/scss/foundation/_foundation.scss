@@ -30,12 +30,12 @@
 
 // This is the default Flexbox Grid
 // http://foundation.zurb.com/sites/docs/flex-grid.html
-@include foundation-flex-grid;
+// @include foundation-flex-grid;
 @include foundation-flex-classes;
 
 // Uncomment to use the XY Grid
 // http://foundation.zurb.com/sites/docs/xy-grid.html
-// @include foundation-xy-grid-classes;
+@include foundation-xy-grid-classes;
 
 // Uncomment to use the standard grid
 // http://foundation.zurb.com/sites/docs/grid.html

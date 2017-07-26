@@ -1,6 +1,20 @@
 {% include head.html %}
 
-<header>
-<small><i>header</i></small>
-{% include components/nav-menu.html %}
+<a class="show-on-focus" href="#main-content">Skip to main content</a>
+<header role="banner" class="site-header">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell shrink large-auto">
+        <a class="site-logo" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/labs-logo.png" alt="NYC Planning Labs"></a>
+      </div>
+      <div class="cell auto hide-for-large text-right">
+        <button class="responsive-nav-toggler" data-toggle="responsive-menu">Menu</button>
+      </div>
+      <div id="responsive-menu" class="cell large-shrink show-for-large" data-toggler=".show-for-large">
+        <nav role="navigation">
+          {% include components/nav-menu.html %}
+        </nav>
+      </div>
+    </div>
+  </div>
 </header>

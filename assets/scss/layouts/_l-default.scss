@@ -2,20 +2,41 @@
 // Layout default
 // --------------------------------------------------
 
-header {
-  @include grid-row;
-  background-color: $light-gray;
+.site-header {
 
-  nav {
-    @include grid-column;
+  .site-logo {
+    display: inline-block;
+    padding: 0.625rem 0;
+  }
+
+  .menu a {
+    color: $dark-gray;
+    line-height: rem-calc(21);
+    padding: rem-calc(23) rem-calc(20);
+    font-size:  0.875rem;
+    font-weight: $global-weight-bold;
+
+    &:hover {
+      background-color: $light-gray;
+      color: $black;
+    }
   }
 }
 
+.responsive-nav-toggler {
+  color: $dark-gray;
+  background-color: $light-gray;
+  font-size:  0.875rem;
+  font-weight: $global-weight-bold;
+  line-height: rem-calc(21);
+  cursor: pointer;
+  margin: 0.625rem 0;
+  padding: rem-calc(10) rem-calc(16);
+}
+
 footer {
-  @include grid-row;
   background-color: $light-gray;
 
   nav {
-    @include grid-column;
   }
 }
