@@ -1,2 +1,14 @@
-- link: Legal
-  url: #
+- link: About
+  url: /about/
+
+- link: Projects
+  url: /projects/
+
+- link: Process
+  url: /process/
+
+- link: Blog
+  url: /blog/
+
+- link: Contact
+  url: /contact/

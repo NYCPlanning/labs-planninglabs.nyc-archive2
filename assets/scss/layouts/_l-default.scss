@@ -34,9 +34,18 @@
   padding: rem-calc(10) rem-calc(16);
 }
 
-footer {
-  background-color: $light-gray;
+.site-footer {
+  background-color: #f1f1f1;
+  font-size: $small-font-size;
+  font-weight: $global-weight-bold;
+  padding: $global-margin 0;
+  margin-top: $global-margin * 3;
 
-  nav {
+  ul{
+    line-height: 2;
+  }
+
+  .header-tiny {
+    text-transform: none;
   }
 }
