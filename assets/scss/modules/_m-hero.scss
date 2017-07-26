@@ -8,6 +8,10 @@
   margin: $global-margin*-2 0 $global-margin*2;
   padding: $global-margin*2 0;
 
+  @include breakpoint(large) {
+    padding: 4vw 0;
+  }
+
   .header-large {
     color: get-color(secondary);
   }
