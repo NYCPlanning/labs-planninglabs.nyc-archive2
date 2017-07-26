@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 .hero {
-  background-color: $primary-color;
+  background-color: $dcp-orange;
   color: $white;
   margin: $global-margin*-2 0 $global-margin*2;
   padding: $global-margin*2 0;
@@ -13,11 +13,11 @@
   }
 
   .header-large {
-    color: get-color(secondary);
+    color: $a11y-yellow;
   }
 
   .button {
-    @include button-style(darken($primary-color,10%), auto, get-color(secondary));
+    @include button-style($a11y-orange, auto, $dcp-yellow);
     margin: $global-margin $global-margin 0 0;
   }
   :last-child {

@@ -70,7 +70,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1020);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #D96B27,
+  primary: $a11y-orange,
   secondary: #ffc861,
   success: #3adb76,
   warning: #cc3322,
