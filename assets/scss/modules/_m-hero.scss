@@ -5,7 +5,8 @@
 .hero {
   background-color: $primary-color;
   color: $white;
-  margin-bottom: $global-margin * 2;
+  margin: $global-margin*-2 0 $global-margin*2;
+  padding: $global-margin*2 0;
 
   .header-large {
     color: get-color(secondary);
@@ -13,5 +14,8 @@
 
   .button {
     @include button-style(darken($primary-color,10%), auto, get-color(secondary));
+  }
+  :last-child {
+    margin-bottom: 0;
   }
 }

@@ -3,11 +3,39 @@ layout: default
 ---
 
 <div class="main">
+  <div class="hero">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+          {% if page.lead %}
+          <p class="header-xlarge">{{ page.lead }}</p>
+          {% else %}
+          <h1>{{ page.title }}</h1>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="cell">
-        <h1>{{ page.title }}</h1>
+
         {{ content }}
+
+        <div class="recent-posts-container">
+          <h2 class="header-xlarge"><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
+          <div class="grid-x grid-margin-x">
+            {% for post in site.posts limit:3 %}
+            <div class="cell large-auto">
+              <span class="post-date">{{ post.date | date: '%B %d, %Y' }}</span>
+              <h1 class="header-medium"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h1>
+              <p class="post-excerpt">{{ post.excerpt }}</p>
+              <a class="button small" href="{{ post.url | prepend: site.baseurl }}">Read more&hellip;</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

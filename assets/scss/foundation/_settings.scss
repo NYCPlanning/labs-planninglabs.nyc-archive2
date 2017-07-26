@@ -136,7 +136,7 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.3;
-$header-margin-bottom: 0.5rem;
+$header-margin-bottom: 1.25em;
 $header-styles: (
   small: (
     'h1': ('font-size': 38),
@@ -199,8 +199,8 @@ $abbr-underline: 1px dotted $black;
 // 5. Typography Helpers
 // ---------------------
 
-$lead-font-size: $global-font-size * 1.25;
-$lead-lineheight: 1.6;
+$lead-font-size: $global-font-size * 1.5;
+$lead-lineheight: 1.4;
 $subheader-lineheight: 1.4;
 $subheader-color: inherit;
 $subheader-font-weight: $global-weight-normal;

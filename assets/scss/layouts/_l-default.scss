@@ -35,6 +35,11 @@
   padding: rem-calc(10) rem-calc(16);
 }
 
+.main {
+  background-color: $white;
+  margin: $global-margin*2 0;
+}
+
 .site-footer {
   background-color: $footer-color;
   font-size: $small-font-size;

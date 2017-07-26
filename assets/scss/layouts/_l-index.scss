@@ -2,11 +2,15 @@
 // Layout index page
 // --------------------------------------------------
 
-.main {
-  background-color: $white;
-  padding-top: $global-margin*2;
-  padding-bottom: $global-margin*2;
+.recent-posts-container {
+  margin: $global-margin*2 0;
 
-  //other elements
-  //@include grid-column;
+  .header-xlarge {
+    margin: $global-margin*2 0;
+  }
+
+  .cell {
+    border-top: 0.5rem solid $secondary-color;
+    padding-top: $global-margin;
+  }
 }

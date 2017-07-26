@@ -2,9 +2,10 @@
 // Layout post
 // --------------------------------------------------
 
-main {
-  @include grid-row;
-
-  //other elements
-  //@include grid-column;
+.post-date {
+  @extend h6;
+  display: block;
+  color: $dark-gray;
+  text-transform: uppercase;
+  margin: $global-margin 0;
 }
