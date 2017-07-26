@@ -22,7 +22,19 @@ layout: default
   </div>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="cell">
+      {% if page.page-nav %}
+      <div class="page-nav cell large-4" data-sticky-container>
+        <div class="sticky" data-sticky data-sticky-on="large" data-top-anchor="page-content:top" data-btm-anchor="page-content:bottom">
+          {% if page.page-nav-header %}<h4 class="page-nav--header header-small">{{ page.page-nav-header }}</h4>{% endif %}
+          <ul class="menu vertical" data-magellan>
+            {% for item in page.page-nav %}
+            <li><a href="{{ item.anchor }}">{{ item.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endif %}
+      <div class="cell large-8" id="page-content">
         {{ content }}
       </div>
     </div>

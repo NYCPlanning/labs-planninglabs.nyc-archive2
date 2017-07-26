@@ -3,8 +3,14 @@
 // --------------------------------------------------
 
 .media-object {
+
   svg {
     width: rem-calc(50);
     height: rem-calc(50);
+  }
+
+  .avatar {
+    width: rem-calc(150);
+    height: auto;
   }
 }

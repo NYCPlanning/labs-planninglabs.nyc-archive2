@@ -37,7 +37,8 @@
 
 .main {
   background-color: $white;
-  margin: $global-margin*2 0;
+  margin-top: $global-margin*2;
+  padding-bottom: $global-margin*2;
 }
 
 .site-footer {
