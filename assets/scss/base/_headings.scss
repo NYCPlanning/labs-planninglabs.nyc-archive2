@@ -7,8 +7,10 @@
 .header-large {   @extend h3; }
 .header-medium {  @extend h4; }
 .header-small {   @extend h5; }
+.header-tiny {    @extend h6; }
+
+h6,
 .header-tiny {
-  @extend h6;
-  font-weight: $global-weight-normal;
   text-transform: uppercase;
+  font-weight: $global-weight-normal;
 }
