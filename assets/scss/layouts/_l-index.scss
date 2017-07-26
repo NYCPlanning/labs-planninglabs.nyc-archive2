@@ -2,8 +2,10 @@
 // Layout index page
 // --------------------------------------------------
 
-main {
-  @include grid-row;
+.main {
+  background-color: $white;
+  padding-top: $global-margin*2;
+  padding-bottom: $global-margin*2;
 
   //other elements
   //@include grid-column;

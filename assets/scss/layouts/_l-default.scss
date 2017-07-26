@@ -3,6 +3,7 @@
 // --------------------------------------------------
 
 .site-header {
+  background-color: $white;
 
   .site-logo {
     display: inline-block;
@@ -35,7 +36,7 @@
 }
 
 .site-footer {
-  background-color: #f1f1f1;
+  background-color: $footer-color;
   font-size: $small-font-size;
   font-weight: $global-weight-bold;
   padding: $global-margin 0;
