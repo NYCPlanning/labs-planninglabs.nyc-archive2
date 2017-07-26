@@ -28,7 +28,7 @@ exclude:
   - "rev-manifest.json"
 
 # Plugins
-plugins:             ["jekyll-sitemap", "jekyll-paginate"]
+plugins_dir:             ["jekyll-sitemap", "jekyll-paginate"]
 
 # Conversion
 incremental:      true
@@ -45,3 +45,6 @@ paginate:         5
 compress_html:
   ignore:
     envs: [development]
+
+# Gems
+gems: [jekyll-paginate]
