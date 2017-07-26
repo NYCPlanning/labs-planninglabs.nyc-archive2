@@ -16,7 +16,7 @@ lead: We work with New York City's Urban Planners to deliver impactful, modern t
 
     <div class="media-object">
       <div class="media-object-section">
-        <img src="foo.png">
+        {% include svg/icon--monitor.svg %}
       </div>
       <div class="media-object-section">
         <p class="header-medium">Bring civic data to life through interactive maps and visualizations</p>
@@ -25,7 +25,7 @@ lead: We work with New York City's Urban Planners to deliver impactful, modern t
 
     <div class="media-object">
       <div class="media-object-section">
-        <img src="foo.png">
+        {% include svg/icon--skyline.svg %}
       </div>
       <div class="media-object-section">
         <p class="header-medium">Create tools to help New Yorkers better understand the built environment</p>
@@ -34,7 +34,7 @@ lead: We work with New York City's Urban Planners to deliver impactful, modern t
 
     <div class="media-object">
       <div class="media-object-section">
-        <img src="foo.png">
+        {% include svg/icon--folder-with-clock.svg %}
       </div>
       <div class="media-object-section">
         <p class="header-medium">Build simple web-based tools to streamline internal workflows</p>
