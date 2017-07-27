@@ -5,3 +5,12 @@
 .nowrap {
   white-space: nowrap;
 }
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: $global-margin;
+  padding-right: 4rem;
+  background: $light-gray;
+  margin-bottom: $global-margin;
+}
