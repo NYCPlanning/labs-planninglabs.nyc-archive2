@@ -40,7 +40,7 @@ incremental:      true
 # Outputting
 permalink:        "/blog/:year/:title/"
 paginate_path:    "/blog/page:num"
-paginate:         5
+paginate:         4
 
 compress_html:
   ignore:

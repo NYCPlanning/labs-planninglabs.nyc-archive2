@@ -2,17 +2,20 @@
 layout: default
 ---
 
-<div class="main blog-post">
+<div class="main">
+  <div class="hero">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+          <h1>Blog</h1>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="cell large-8">
-        <article>
-          <h1>{{ page.title }}</h1>
-          <span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span>
-          <div class="post-content">
-            {{ content }}
-          </div>
-        </article>
+        {{ content }}
       </div>
       <div class="cell large-4">
         {% include components/blog-sidebar.html %}

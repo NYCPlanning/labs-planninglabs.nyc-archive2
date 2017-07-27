@@ -2,6 +2,10 @@
 // Layout post
 // --------------------------------------------------
 
+.main.blog-post {
+  border-top: $global-margin solid $dcp-orange;
+}
+
 .post-date {
   @extend h6;
   display: block;
