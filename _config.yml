@@ -48,3 +48,9 @@ compress_html:
 
 # Gems
 gems: [jekyll-paginate]
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

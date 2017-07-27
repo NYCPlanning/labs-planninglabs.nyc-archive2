@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="main">
+  <div class="hero">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+          {% if page.lead %}
+          <h1 class="header-large">{{ page.title }}</h1>
+          <p class="header-xlarge">{{ page.lead }}</p>
+          {% else %}
+          <h1>{{ page.title }}</h1>
+          {% endif %}
+          {% if page.hero-buttons %}
+          {% for button in page.hero-buttons %}<a href="{{ button.permalink }}" class="button large">{{ button.call-to-action }}</a>{% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x medium-up-2 large-up-3">
+      {% for project in site.projects %}
+      <div class="cell">
+        <div class="card">
+          <div class="card-section">
+            <h3><a href="{{ project.permalink }}">{{ project.title }}</a></h3>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
