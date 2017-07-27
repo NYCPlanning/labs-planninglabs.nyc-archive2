@@ -44,7 +44,7 @@ $color-gray-hover   : #fafafa;
 ```
 
 <figure>
-  <img src="{{site.baseurl}}/assets/blog/cloning-18f-gsa-gov/colors-comparison.png" alt="Comparison of 18F's and Labs' color palettes" width="915" />
+  <img src="{{site.baseurl}}/assets/img/blog/cloning-18f-gsa-gov/colors-comparison.png" alt="Comparison of 18F's and Labs' color palettes" width="915" />
   <figcaption>Comparison of 18F's and Labs' color palettes. (Made with colllor.com)  </figcaption>
 </figure>
 
