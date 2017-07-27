@@ -4,7 +4,7 @@ title: NYC Historic Migration Data Visualization
 subtitle: An interactive visualization of historic U.S. census migration data for New York City
 permalink: /projects/historic-migration-dataviz/
 excerpt: An interactive visualization of historic U.S. census migration data for New York City
-image: /assets/img/home/hero-historic-migration-dataviz.png
+image: /assets/img/projects/hero-historic-migration-dataviz.png
 image_accessibility: Screenshot of the NYC Historic Migration Data Visualization
 project_weight: 2
 tag: data visualization

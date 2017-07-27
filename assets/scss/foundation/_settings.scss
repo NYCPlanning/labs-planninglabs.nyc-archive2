@@ -334,7 +334,7 @@ $card-divider-background: $light-gray;
 $card-border: 1px solid $medium-gray;
 $card-shadow: none;
 $card-border-radius: $global-radius;
-$card-padding: $global-padding;
+$card-padding: $global-padding*1.5 $global-padding;
 $card-margin-bottom: $global-margin;
 
 // 15. Close Button

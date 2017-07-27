@@ -29,13 +29,16 @@ layout: default
     </div>
   </div>
 
-  <div class="grid-container">
+  <div class="grid-container" data-equalizer>
     <div class="grid-x grid-padding-x medium-up-2 large-up-3">
       {% for project in site.projects %}
       <div class="cell">
-        <div class="card">
+        <div class="card text-center" data-equalizer-watch>
+          <a href="{{ project.permalink }}"><img src="{{ project.image }}" alt="{{ project.image_accessibility }}" /></a>
           <div class="card-section">
             <h3><a href="{{ project.permalink }}">{{ project.title }}</a></h3>
+            <p>{{ project.subtitle }}</p>
+            <a href="{{ project.permalink }}">Read more&hellip;</a>
           </div>
         </div>
       </div>

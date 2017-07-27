@@ -4,7 +4,7 @@ title: NYC Tax Lot Selector
 subtitle: A simple map-based selection tool for generating lists of NYC tax lots
 permalink: /projects/tax-lot-selector/
 excerpt: A simple map-based selection tool for generating lists of NYC tax lots
-image: /assets/img/home/tax-lot-selector.png
+image: /assets/img/projects/tax-lot-selector.png
 image_accessibility: Screenshot of the NYC Tax Lot Selector
 project_weight: 2
 tag: mapping, gis
