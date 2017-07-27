@@ -1,7 +1,8 @@
 ---
 permalink: /contact/
-layout: page-full
+layout: page
 title: Contact
+full-width: true
 ---
 
 <div class="grid-container">

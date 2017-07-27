@@ -20,6 +20,9 @@ layout: default
       </div>
     </div>
   </div>
+  {% if page.full-width == true %}
+  {{ content }}
+  {% else %}
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       {% if page.page-nav %}
@@ -39,4 +42,5 @@ layout: default
       </div>
     </div>
   </div>
+  {% endif %}
 </div>
