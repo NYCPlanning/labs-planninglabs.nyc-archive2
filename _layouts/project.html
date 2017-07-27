@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="main">
+  <div class="hero">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+          <h1 class="header-large">{{ page.title }}</h1>
+          <p class="header-xlarge">{{ page.lead }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-8">
+        <p><img src="{{ page.image }}" alt="{{ page.image_accessibility }}" /></p>
+        {{ content }}
+      </div>
+      <div class="cell medium-4">
+        <h6>Customer</h6>
+        {{ page.customer | markdownify }}
+        <hr>
+        <h6>See our work</h6>
+        {{ page.project_url | markdownify }}
+        <h6>GitHub repo</h6>
+        <a href="{{ page.github_repo }}">{{ page.github_repo | replace: "https://github.com/", "" }}</a>
+      </div>
+    </div>
+  </div>
+
+</div>

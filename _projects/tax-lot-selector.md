@@ -1,18 +1,19 @@
 ---
-customer: "Business Improvement Division"
-title: NYC Tax Lot Selector
-subtitle: A simple map-based selection tool for generating lists of NYC tax lots
 permalink: /projects/tax-lot-selector/
+layout: project
+title: NYC Tax Lot Selector
+lead: A simple map-based selection tool for generating lists of NYC tax lots
 excerpt: A simple map-based selection tool for generating lists of NYC tax lots
+project_weight: 2
 image: /assets/img/projects/tax-lot-selector.png
 image_accessibility: Screenshot of the NYC Tax Lot Selector
-project_weight: 2
 tag: mapping, gis
-expiration_date:
+customer: "Business Improvement Division"
 github_repo: https://github.com/NYCPlanning/labs-tax-lot-selector
 project_url: "[NYC Tax Lot Selector](https://nycplanning.github.io/labs-tax-lot-selector/)"
 learn_more:
 product_clients:
+expiration_date:
 ---
 
 The DCP Business Improvement Division is responsible for improving the NYC DCP Land Use Application process to be simple, transparent and timely for all of DCP stakeholders.  
