@@ -8,14 +8,14 @@ $logo-padding: 0.625rem;
 
 .site-logo {
   float: left;
-  padding: 0.75rem 0;
+  padding: 0.75rem 0 0;
   line-height: 1;
-  height: $logo-height-small + $logo-padding*2;
+  height: $logo-height-small + $logo-padding;
   overflow: visible;
 
   @include breakpoint(large) {
-    padding: $logo-padding 0;
-    height: $logo-height + $logo-padding*2;
+    padding: $logo-padding 0 0;
+    height: $logo-height + $logo-padding;
   }
 
   img {
