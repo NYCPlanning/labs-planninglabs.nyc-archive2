@@ -4,7 +4,7 @@ layout: project
 title: NYC Historic Migration Data Visualization
 lead: An interactive visualization of historic U.S. census migration data for New York City
 excerpt: An interactive visualization of historic U.S. census migration data for New York City
-project_weight: 2
+project_weight: 1
 image: /assets/img/projects/hero-historic-migration-dataviz.png
 image_accessibility: Screenshot of the NYC Historic Migration Data Visualization
 tag: data visualization
@@ -15,6 +15,8 @@ learn_more:
 product_clients:
 expiration_date:
 ---
+
+![Screenshot of the NYC Historic Migration Data Visualization]({{ site.url }}/assets/img/projects/hero-historic-migration-dataviz.png)
 
 DCP's Population Division is New York City government's hub of demographic expertise, is responsible for the compilation, analysis, and dissemination of census and related federal, state, and local data for city agencies, local communities, and the media.
 

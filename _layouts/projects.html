@@ -29,18 +29,26 @@ layout: default
     </div>
   </div>
 
-  <div class="grid-container" data-equalizer>
-    <div class="grid-x grid-padding-x medium-up-2 large-up-3">
-      {% for project in site.projects %}
+  <div class="grid-container" data-equalizer data-equalize-by-row="true">
+    <div class="grid-x grid-margin-x grid-margin-y medium-up-2 large-up-3">
+      {% assign projects = site.projects | sort: 'project_weight' %}
+      {% for project in projects reversed %}
       <div class="cell">
-        <div class="card text-center" data-equalizer-watch>
-          <a href="{{ project.permalink }}"><img src="{{ project.image }}" alt="{{ project.image_accessibility }}" /></a>
-          <div class="card-section">
-            <h3><a href="{{ project.permalink }}">{{ project.title }}</a></h3>
-            <p>{{ project.lead }}</p>
-            <a href="{{ project.permalink }}">Read more&hellip;</a>
+        <a class="card-link" href="{{ project.permalink }}">
+          <div class="card no-margin text-center{% if project.current == true %} is-current{% endif %}{% if project.upcoming == true %} is-upcoming{% endif %}" data-equalizer-watch>
+            {% if project.current == true %}
+            <span class="project-status project-status--current">Current Project</span>
+            {% endif %}
+            {% if project.upcoming == true %}
+            <span class="project-status project-status--upcoming">Upcoming Project</span>
+            {% endif %}
+            <img src="{{ project.image }}" alt="{{ project.image_accessibility }}" />
+            <div class="card-section">
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.lead }}</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       {% endfor %}
     </div>

@@ -16,6 +16,8 @@ product_clients:
 expiration_date:
 ---
 
+![Screenshot of the NYC Tax Lot Selector]({{ site.url }}/assets/img/projects/tax-lot-selector.png)
+
 The DCP Business Improvement Division is responsible for improving the NYC DCP Land Use Application process to be simple, transparent and timely for all of DCP stakeholders.  
 
 The [NYC Tax Lot Selector](https://nycplanning.github.io/labs-tax-lot-selector/) provides a simple Graphical User Interface for creating ad-hoc lists of tax lots, also known as BBLs (short for borough, block, and lot.). BBLs are essentially a unique identifier for a parcel of land in New York City.  These BBL lists can be used as inputs for other information systems or workflows that describe changes to a specific part of the city (rezonings, study areas, etc).
