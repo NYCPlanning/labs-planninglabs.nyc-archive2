@@ -49,3 +49,5 @@ Gemfile.lock
 
 # Composer
 composer.lock
+
+package-lock.json
