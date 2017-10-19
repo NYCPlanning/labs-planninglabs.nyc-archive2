@@ -5,7 +5,7 @@ title: Homepage
 lead: We work with New York City's Urban Planners to deliver impactful, modern technology tools.
 hero-buttons:
   - call-to-action: Get in touch
-    permalink: /contact
+    permalink: /contact/
 
 ---
 
