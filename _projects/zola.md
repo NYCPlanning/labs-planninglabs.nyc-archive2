@@ -4,9 +4,8 @@ layout: project
 title: ZoLa
 lead: A reimagining of the existing DCP Zoning and Land Use web map application
 excerpt:
-project_weight: 4
-current: false
-upcoming: true
+project_weight: 5
+current: true
 image: /assets/img/projects/zola.jpg
 image_accessibility: Screenshot of ZoLa
 tag: Zoning, Land Use, Mapping
